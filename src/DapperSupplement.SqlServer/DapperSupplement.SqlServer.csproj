@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageId>Jumboly.DapperSupplement.SqlServer</PackageId>
+        <Description>Dapperの拡張メソッド集(SQLServer追加分)</Description>
+        <PackageProjectUrl>https://github.com/jumboly/DapperSupplement</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jumboly/DapperSupplement</RepositoryUrl>
+        <PackageTags>Dapper SQL SQLServer</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DapperSupplement\DapperSupplement.csproj" />
+    </ItemGroup>
+
+</Project>
