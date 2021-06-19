@@ -37,7 +37,7 @@ jobs:
           path: ./publish
   
   release:
-    if: github.event.imputs.dry_run == 'false'
+    if: github.event.inputs.dry_run == 'false'
     needs: [build]
     runs-on: ubuntu-latest
     env:
@@ -66,4 +66,4 @@ jobs:
           draft: true
           prerelease: false
       - uses: actions/download-artifact@v2
-      - run: dotnet nuget push "./nuget/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+      - run: dotnet nuget push "./nuget/*.nupkg" -s https://www.nuget.org/api/v2/package -k ${{ secrets.NUGET_API_KEY }} 
