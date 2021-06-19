@@ -1,4 +1,4 @@
-name: .NET
+name: nuget
 
 on:
   push:
@@ -17,9 +17,7 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 5.0.x
-      - name: Restore dependencies
-        run: dotnet restore
-      - name: Build
-        run: dotnet build --no-restore -c Release
-      - name: NuGet
+      - run: dotnet restore
+      - run: dotnet build --no-restore -c Release
+      - name: NuGet Push
         run: dotnet nuget push ./src/DapperSupplement/bin/Release/Jumboly.DapperSupplement.*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
