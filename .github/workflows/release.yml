@@ -1,4 +1,4 @@
-name: Build-Release
+name: Release
 
 on:
   workflow_dispatch: 
@@ -38,7 +38,7 @@ jobs:
   
   release:
     if: github.event.imputs.dry_run == 'false'
-    needs: [build-dotnet]
+    needs: [build]
     runs-on: ubuntu-latest
     env:
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
