@@ -37,7 +37,7 @@ jobs:
           path: ./publish
   
   release:
-    if: github.event.imputs.dry_run == 'false'
+    if: github.event.inputs.dry_run == 'false'
     needs: [build]
     runs-on: ubuntu-latest
     env:
