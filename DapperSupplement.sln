@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperSupplement", "src\DapperSupplement\DapperSupplement.csproj", "{497FDF6E-3571-4A46-87EE-1D79DBEBD686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperSupplement.Test", "src\DapperSupplement.Test\DapperSupplement.Test.csproj", "{94328B94-EDCC-4DD3-BEC4-121DA78E8323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497FDF6E-3571-4A46-87EE-1D79DBEBD686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497FDF6E-3571-4A46-87EE-1D79DBEBD686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497FDF6E-3571-4A46-87EE-1D79DBEBD686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497FDF6E-3571-4A46-87EE-1D79DBEBD686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94328B94-EDCC-4DD3-BEC4-121DA78E8323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94328B94-EDCC-4DD3-BEC4-121DA78E8323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94328B94-EDCC-4DD3-BEC4-121DA78E8323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94328B94-EDCC-4DD3-BEC4-121DA78E8323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
