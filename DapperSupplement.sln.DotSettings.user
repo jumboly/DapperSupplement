@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=72a2d666_002Da943_002D4bb4_002D9709_002De995a7ff0a78/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Create" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FA1901B4-CB83-49C6-9926-FA229B1E25A8::net5.0::DapperSupplement.SqlServer.Test.Tests.SqlConnectionExtensionsTest.BulkCopy&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FA1901B4-CB83-49C6-9926-FA229B1E25A8::net5.0::DapperSupplement.SqlServer.Test.Tests.SqlConnectionExtensionsTest.BulkUpdate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FA1901B4-CB83-49C6-9926-FA229B1E25A8::net5.0::DapperSupplement.SqlServer.Test.Tests.SqlConnectionExtensionsTest.BulkMerge&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FA1901B4-CB83-49C6-9926-FA229B1E25A8::net5.0::DapperSupplement.SqlServer.Test.Tests.SqlConnectionExtensionsTest.BulkMerge_EnableDelete&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
